@@ -63,3 +63,8 @@ It is almost like alexa, siri (still working on it ).
 **Technologies**
 Python, ollama, gemini
 
+
+## CONTACT 
+
+gmail : mehebubislam137@gmail.com
+linkedin : https://www.linkedin.com/in/mehebub-islam-882352384/
