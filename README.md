@@ -64,6 +64,9 @@ The website provides an overview of my background, technical interests, and proj
 
 HTML, CSS, JavaScript
 
+**Link**
+https://e-portfolio-psi-cyan.vercel.app/
+
 ### 2. NEXUS - AI-Powered Criminal Network Intelligence System
 
 An AI-powered intelligence analysis system designed to help investigators explore relationships between suspicious entities and identify potentially relevant connections within complex networks.
@@ -103,6 +106,9 @@ It helped me gain practical experience in developing web applications, designing
 **Technologies**
 
 HTML, CSS, React.js, Supabase
+
+**Link**
+https://food-ordering-system-seven-omega.vercel.app/
 
 ### 4. Mental Health Support Chatbot
 
@@ -166,24 +172,141 @@ It provides practical experience in web application development, database integr
 
 React.js, Supabase
 
-### 7. TasteTable - Food Ordering Application
+### 7. TeamConnect - Team Collaboration Platform
 
-A food ordering web application developed as part of my web development learning journey.
+A team collaboration web application developed to explore modern web development and collaborative application design.
 
-The project focuses on creating a simple and interactive food ordering experience while exploring frontend development and modern web technologies.
+The project focuses on creating a centralized platform where team members can communicate, organize tasks, and share resources while working together.
 
-It provides practical experience in designing web interfaces and implementing application functionality.
+It provides practical experience in building interactive web interfaces, managing application data, and integrating backend services.
 
 **Key Features**
 
-* Food browsing interface.
-* Food ordering functionality.
-* Interactive user experience.
-* Responsive frontend design.
+* Team-based collaboration.
+* Task management.
+* Team messaging.
+* File sharing.
+* User authentication and profile management.
+* Interactive and responsive interface.
 
 **Technologies**
 
-HTML, CSS, JavaScript, React.js, supabase
+React.js, Vite, Supabase, HTML, CSS, JavaScript
+
+**Link**
+https://team-connect-9chf.vercel.app/login
+
+### 8. NextRide - Bus Ticket Booking Application
+
+A bus ticket booking application currently under development as part of my learning journey in mobile and backend development.
+
+The project focuses on creating a convenient platform for users to search for bus routes, explore available seats, and book tickets through a mobile application.
+
+The Flutter frontend has been completed, while backend development and integration are planned for the next phase.
+
+**Key Features**
+
+* Bus route search.
+* Seat selection and booking.
+* QR-based ticket generation.
+* Mobile-friendly user interface.
+* Backend integration for booking management.
+
+**Technologies**
+
+Flutter, Django, PostgreSQL
+
+**Status:** In Progress
+
+### 9. Student Management System
+
+A student management application developed while exploring Python application development, database integration, and dashboard-based interfaces.
+
+The project focuses on organizing and managing student information through a simple and interactive application.
+
+It provided practical experience in connecting a Python application with a database and presenting information through a dashboard.
+
+**Key Features**
+
+* Student information management.
+* Database integration.
+* Interactive dashboard.
+* Student record organization.
+
+**Technologies**
+
+Python, Streamlit, SQLite
+
+### 10. Java Console Projects
+
+A collection of beginner-level Java console applications developed while learning Java programming and strengthening programming fundamentals.
+
+The projects helped me understand control structures, methods, user input, and basic application logic.
+
+**Key Features**
+
+* Dice-rolling application.
+* Menu-driven console programs.
+* Basic Java programming practice.
+* Interactive console-based applications.
+
+**Technologies**
+
+Java
+
+### 11. 2D Graphics Editor
+
+A menu-driven graphics editor developed in C using a text-based canvas.
+
+The project focuses on applying programming logic and array manipulation to draw and interact with simple shapes.
+
+It provided practical experience in implementing graphical operations using fundamental programming concepts.
+
+**Key Features**
+
+* Text-based drawing canvas.
+* Simple shape drawing.
+* Menu-driven interaction.
+* Array-based graphics operations.
+
+**Technologies**
+
+C, Arrays, Programming Logic
+
+### 12. Line Following Robot
+
+An Arduino-based robotics project designed to follow a predefined path using infrared sensors and motor control.
+
+The project explores the integration of hardware components with programming logic to develop an autonomous line-following robot.
+
+**Key Features**
+
+* Line detection using IR sensors.
+* Motor control for movement.
+* Path-following functionality.
+* Direction control based on sensor input.
+
+**Technologies**
+
+Arduino, C/C++, IR Sensors, L298N Motor Driver
+
+### 13. Obstacle Detection Robot
+
+A robotics project developed using NodeMCU and motor control components to explore sensor-based movement and obstacle detection.
+
+The project focuses on integrating hardware and software to build a robot capable of responding to obstacles while navigating its environment.
+
+**Key Features**
+
+* Obstacle detection using sensors.
+* Motor control and movement.
+* Sensor-based navigation.
+* Hardware and software integration.
+
+**Technologies**
+
+NodeMCU, C/C++, IR Sensors, L298N Motor Driver
+
 
 ## CONTACT
 
