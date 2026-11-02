@@ -1,1 +1,465 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mehebub Islam — B.Tech AIML Student</title>
+    <meta name="description" content="Portfolio of Mehebub Islam, B.Tech AIML student at REVA University, Bengaluru." />
+    <!-- Optional: remove these 3 lines and the site falls back to system fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip" href="#work">Skip to projects</a>
+
+    <header class="nav">
+        <a class="nav__brand" href="#top">M. Islam</a>
+        <nav aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#index">Index</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <!-- HERO -->
+        <section class="hero wrap">
+            <div class="hero__text">
+                <p class="label">Portfolio · Field notes</p>
+                <h1>Mehebub<br /><em>Islam</em></h1>
+                <p class="hero__lead">
+                    B.Tech student in Artificial Intelligence &amp; Machine Learning at
+                    REVA University, Bengaluru. I learn by building: voice assistants,
+                    graph-based analysis tools, web apps and small robots.
+                </p>
+                <div class="hero__cta">
+                    <a class="btn btn--solid" href="#work">See my work</a>
+                    <a class="btn" href="#contact">Get in touch</a>
+                </div>
+            </div>
+
+            <aside class="card" aria-label="Profile summary">
+                <p class="label">Profile card</p>
+                <dl>
+                    <div>
+                        <dt>Studying</dt>
+                        <dd>B.Tech, AIML</dd>
+                    </div>
+                    <div>
+                        <dt>University</dt>
+                        <dd>REVA University</dd>
+                    </div>
+                    <div>
+                        <dt>City</dt>
+                        <dd>Bengaluru, India</dd>
+                    </div>
+                    <div>
+                        <dt>Interests</dt>
+                        <dd>Software, AI/ML, emerging tech</dd>
+                    </div>
+                </dl>
+            </aside>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="wrap section">
+            <h2 class="section__title"><span class="num">01</span> About</h2>
+            <div class="about">
+                <p class="about__big">
+                    I enjoy turning ideas into working things, and learning how
+                    different technologies solve real-world problems.
+                </p>
+                <div class="about__body">
+                    <p>
+                        I'm Mehebub Islam, pursuing a B.Tech in Artificial Intelligence
+                        and Machine Learning at REVA University, Bengaluru. I'm passionate
+                        about technology and software development, and I like exploring
+                        new ideas through practical implementation.
+                    </p>
+                    <p>
+                        As a student, I'm continuously improving my programming skills and
+                        problem-solving, and exploring different areas of software
+                        development and AI. This portfolio documents the projects I've
+                        built and what I learned from each.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="wrap section">
+            <h2 class="section__title"><span class="num">02</span> Skills</h2>
+            <table class="ledger">
+                <caption class="sr">
+                    Technical skills by category
+                </caption>
+                <tbody>
+                    <tr>
+                        <th scope="row">Languages</th>
+                        <td>C · C++ (basic) · Python · Java · JavaScript</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Web</th>
+                        <td>HTML · CSS · React.js</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Databases</th>
+                        <td>MySQL · MongoDB · Supabase</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">AI / ML</th>
+                        <td>
+                            Scikit-learn · Ollama · Gemini API · NLP · ML fundamentals
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tools</th>
+                        <td>Git · GitHub · VS Code · FastAPI · Neo4j</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- FEATURED WORK -->
+        <section id="work" class="wrap section">
+            <h2 class="section__title">
+                <span class="num">03</span> Selected work
+            </h2>
+
+            <article class="feature feature--dark">
+                <div class="feature__main">
+                    <p class="label label--brass">№ 01 · AI / Graph analysis</p>
+                    <h3>NEXUS</h3>
+                    <p class="feature__sub">
+                        AI-Powered Criminal Network Intelligence System
+                    </p>
+                    <p>
+                        A system designed to help investigators explore relationships
+                        between suspicious entities and identify potentially relevant
+                        connections within complex networks, using graph-based analysis
+                        and anomaly detection. It aims to organise complex information
+                        into an interactive, understandable format.
+                    </p>
+                    <ul class="ticks">
+                        <li>Relationship analysis between entities</li>
+                        <li>Interactive network visualization</li>
+                        <li>Identification of unusual patterns and connections</li>
+                        <li>
+                            Anomaly scoring to highlight potentially relevant entities
+                        </li>
+                        <li>Graph-based analysis for exploring complex networks</li>
+                    </ul>
+                    <ul class="tags">
+                        <li>React.js</li>
+                        <li>TypeScript</li>
+                        <li>Python</li>
+                        <li>FastAPI</li>
+                        <li>PostgreSQL</li>
+                        <li>Neo4j</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <svg class="graph" viewBox="0 0 240 240" role="img"
+                    aria-label="Decorative network graph of connected nodes">
+                    <g class="graph__links" stroke="#B8893A" stroke-width="1.2" fill="none">
+                        <line x1="120" y1="120" x2="45" y2="55" />
+                        <line x1="120" y1="120" x2="195" y2="50" />
+                        <line x1="120" y1="120" x2="200" y2="170" />
+                        <line x1="120" y1="120" x2="60" y2="195" />
+                        <line x1="45" y1="55" x2="195" y2="50" />
+                        <line x1="200" y1="170" x2="60" y2="195" />
+                    </g>
+                    <g fill="#23403A" stroke="#B8893A" stroke-width="1.5">
+                        <circle cx="45" cy="55" r="8" />
+                        <circle cx="195" cy="50" r="8" />
+                        <circle cx="200" cy="170" r="8" />
+                        <circle cx="60" cy="195" r="8" />
+                    </g>
+                    <circle class="graph__hub" cx="120" cy="120" r="14" fill="#A8482A" stroke="#EFE9DD"
+                        stroke-width="2" />
+                </svg>
+            </article>
+
+            <article class="feature feature--light">
+                <div class="feature__main">
+                    <p class="label">№ 02 · AI / Voice</p>
+                    <h3>QUASER</h3>
+                    <p class="feature__sub">AI Voice Assistant</p>
+                    <p>
+                        A personal voice assistant inspired by Alexa and Siri, built to
+                        process voice input and respond intelligently. It combines local
+                        and cloud-based AI to explore a personalised assistant with
+                        conversational capabilities.
+                    </p>
+                    <ul class="ticks">
+                        <li>Voice-based interaction</li>
+                        <li>Speech recognition and processing</li>
+                        <li>AI-powered conversational responses</li>
+                        <li>
+                            Integration with local (Ollama) and cloud (Gemini API) models
+                        </li>
+                    </ul>
+                    <ul class="tags tags--light">
+                        <li>Python</li>
+                        <li>Ollama</li>
+                        <li>Gemini API</li>
+                        <li>Speech Recognition</li>
+                        <li>Text-to-Speech</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- PROJECT INDEX -->
+        <section id="index" class="wrap section">
+            <h2 class="section__title">
+                <span class="num">04</span> Project index
+            </h2>
+            <p class="hint">Select an entry to open it.</p>
+
+            <div class="index">
+                <details>
+                    <summary>
+                        <span class="n">03</span><span class="t">TeamConnect <small>Team collaboration
+                                platform</small></span><span class="s">React · Vite · Supabase</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A team collaboration web application where members can
+                            communicate, organise tasks and share resources in one place. It
+                            gave me practical experience building interactive interfaces,
+                            managing application data and integrating backend services.
+                        </p>
+                        <ul class="ticks">
+                            <li>Team-based collaboration</li>
+                            <li>Task management</li>
+                            <li>Team messaging</li>
+                            <li>File sharing</li>
+                            <li>User authentication and profile management</li>
+                            <li>Interactive, responsive interface</li>
+                        </ul>
+                        <p class="links">
+                            <a href="https://team-connect-9chf.vercel.app/login" target="_blank" rel="noopener">Live
+                                demo ↗</a>
+                        </p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">04</span><span class="t">Food Ordering System <small>Web
+                                application</small></span><span class="s">HTML · CSS · React · Supabase</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A web-based food ordering application built to explore frontend
+                            development and backend integration, with an interactive
+                            interface for browsing food items.
+                        </p>
+                        <ul class="ticks">
+                            <li>Food item browsing</li>
+                            <li>Interactive ordering interface</li>
+                            <li>Backend and database integration</li>
+                        </ul>
+                        <p class="links">
+                            <a href="https://food-ordering-system-seven-omega.vercel.app/" target="_blank"
+                                rel="noopener">Live demo ↗</a>
+                        </p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">05</span><span class="t">NextRide
+                            <small>Bus ticket booking app · In progress</small></span><span class="s">Flutter · Django ·
+                            PostgreSQL</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A bus ticket booking app under development as part of my
+                            learning in mobile and backend development. The Flutter frontend
+                            is complete; backend development and integration are planned for
+                            the next phase.
+                        </p>
+                        <ul class="ticks">
+                            <li>Bus route search</li>
+                            <li>Seat selection and booking</li>
+                            <li>QR-based ticket generation</li>
+                            <li>Backend integration for booking management (planned)</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">06</span><span class="t">Mental Health Support Chatbot
+                            <small>Conversational AI</small></span><span class="s">Python · Scikit-learn · Ollama ·
+                            NLP</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            An AI chatbot offering supportive conversations and general
+                            wellness guidance for people dealing with stress. It explores
+                            how conversational AI and machine learning can create a space to
+                            express feelings and receive supportive responses.
+                        </p>
+                        <ul class="ticks">
+                            <li>Interactive chatbot conversations</li>
+                            <li>General stress-management guidance</li>
+                            <li>Wellness suggestions and relaxation practices</li>
+                            <li>Integration with local AI models</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">07</span><span class="t">Student Management System
+                            <small>Dashboard application</small></span><span class="s">Python · Streamlit ·
+                            SQLite</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            An application for organising student information, built while
+                            learning to connect a Python app to a database and present data
+                            through a dashboard.
+                        </p>
+                        <ul class="ticks">
+                            <li>Student information management</li>
+                            <li>Database integration</li>
+                            <li>Interactive dashboard</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">08</span><span class="t">Line Following Robot
+                            <small>Hardware</small></span><span class="s">Arduino · C/C++ · IR sensors · L298N</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            An Arduino-based robot that follows a predefined path using
+                            infrared sensors and motor control, combining hardware with
+                            programming logic.
+                        </p>
+                        <ul class="ticks">
+                            <li>Line detection using IR sensors</li>
+                            <li>Motor control for movement</li>
+                            <li>Direction control based on sensor input</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">09</span><span class="t">Obstacle Detection Robot
+                            <small>Hardware</small></span><span class="s">NodeMCU · C/C++ · IR sensors · L298N</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A NodeMCU-based robot exploring sensor-based movement and
+                            obstacle detection, integrating hardware and software so the
+                            robot can respond to obstacles while navigating.
+                        </p>
+                        <ul class="ticks">
+                            <li>Obstacle detection using sensors</li>
+                            <li>Motor control and movement</li>
+                            <li>Sensor-based navigation</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">10</span><span class="t">2D Graphics Editor <small>C
+                                programming</small></span><span class="s">C · Arrays</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A menu-driven graphics editor in C using a text-based canvas,
+                            applying programming logic and array manipulation to draw simple
+                            shapes.
+                        </p>
+                        <ul class="ticks">
+                            <li>Text-based drawing canvas</li>
+                            <li>Simple shape drawing</li>
+                            <li>Menu-driven interaction</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">11</span><span class="t">Java Console Projects
+                            <small>Fundamentals practice</small></span><span class="s">Java</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            Beginner-level console applications built while learning Java,
+                            covering control structures, methods, user input and basic
+                            application logic.
+                        </p>
+                        <ul class="ticks">
+                            <li>Dice-rolling application</li>
+                            <li>Menu-driven console programs</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span class="n">12</span><span class="t">This Portfolio <small>Personal
+                                website</small></span><span class="s">HTML · CSS · JavaScript</span>
+                    </summary>
+                    <div class="d">
+                        <p>
+                            A personal website showcasing my skills, projects and learning
+                            journey as a B.Tech AIML student.
+                        </p>
+                        <p class="links">
+                            <a href="https://e-portfolio-psi-cyan.vercel.app/" target="_blank" rel="noopener">Visit site
+                                ↗</a>
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="wrap section contact">
+            <h2 class="section__title"><span class="num">05</span> Contact</h2>
+            <p class="contact__big">
+                Let's talk about <em>projects, internships</em> or ideas.
+            </p>
+            <ul class="contact__list">
+                <li>
+                    <span class="label">Email</span><a
+                        href="mailto:mehebubislam137@gmail.com">mehebubislam137@gmail.com</a>
+                </li>
+                <li>
+                    <span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/mehebub-islam-882352384/"
+                        target="_blank" rel="noopener">mehebub-islam-882352384</a>
+                </li>
+                <li>
+                    <span class="label">GitHub</span><a href="https://github.com/mehebubislam137" target="_blank"
+                        rel="noopener">mehebubislam137</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="foot wrap">
+        <p>© Mehebub Islam · B.Tech AIML, REVA University</p>
+    </footer>
+</body>
+
+</html>
